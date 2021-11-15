@@ -13,8 +13,25 @@
 * `gcc` is for C
 * `g++` is for Cpp
 
-## 
+## make vs CMake
+* make (or makefile) is a buildsystem 
+  * it drives the compiler and other build tools to build your code
 
+* CMake is a generator of buildsystems
+  * It can produce Makefiles, it can produce Ninja build files, it can produce KDEvelop or Xcode projects, it can produce Visual Studio solutions from the same CMakeLists.txt file
+
+![diagram](img/diagram.png)
+
+## How to setup vscode in Mac
+* Generate `tasks.json` in `.vscode` folder
+![step1](img/taskjson.png) 
+
+* select `clang++`
+![step2](img/select.png)  
+
+* build it
+![step3](img/build.png)  
 
 # Ref
+[How to buld](https://code.visualstudio.com/docs/cpp/config-clang-mac)
 [status of cpp](https://www.jetbrains.com/lp/devecosystem-2019/cpp/)
