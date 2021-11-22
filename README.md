@@ -24,6 +24,7 @@
 
 ## How to setup vscode in Mac
 * Generate `tasks.json` in `.vscode` folder
+* It is still calling clang++ for compiling
 ![step1](img/taskjson.png) 
 
 * select `clang++`
